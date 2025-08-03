@@ -118,7 +118,7 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: ${{ vars.WEB_APP_NAME }}
-          slot-name: dev
+          # slot-name: dev
           package: myapp
 
   # deploy-to-staging:
