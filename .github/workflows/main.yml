@@ -92,7 +92,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build-and-test
     environment:
-      name: DEV
+      name: dev
       url: ljteqsolutionsllc-dev.azurewebsites.net/
 
     steps:
