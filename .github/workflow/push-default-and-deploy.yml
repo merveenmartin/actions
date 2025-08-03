@@ -93,7 +93,7 @@ jobs:
     needs: build-and-test
     environment:
       name: DEV
-      url: http://my-web-app-please-work-dev.azurewebsites.net/
+      url: ljteqsolutionsllc-dev.azurewebsites.net/
 
     steps:
       - name: Download artifact
