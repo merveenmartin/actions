@@ -127,6 +127,12 @@ jobs:
             "clientSecret": "${{ env.AZURE_CLIENT_SECRET }}"
           }' | jq .
 
+      - name: Sleep for 60 seconds to wait for Azure role assignment
+        run: |
+          echo "Waiting for role assignment propagation..."
+          sleep 60
+          echo "Continuing execution..."
+    
       - name: Login to Azure
         uses: azure/login@v2
         with:
