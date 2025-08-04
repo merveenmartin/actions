@@ -117,7 +117,7 @@ jobs:
           roleId: 5666b276-bc67-ed48-d931-db908cfee7ba
           secretId: 6a194ea9-83c3-db22-9ad7-074a45a51fdc
           secrets: |
-            azure/creds/git-actions-role client_id | AZURE_CLIENT_ID
+            azure/creds/git-actions-role client_id | AZURE_CLIENT_ID;
             azure/creds/git-actions-role client_secret | AZURE_CLIENT_SECRET
              
       - name: Login to Azure
