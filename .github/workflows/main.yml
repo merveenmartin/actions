@@ -130,7 +130,7 @@ jobs:
       - name: Sleep for 60 seconds to wait for Azure role assignment
         run: |
           echo "Waiting for role assignment propagation..."
-          sleep 20
+          sleep 60
           echo "Continuing execution..."
     
       - name: Login to Azure
