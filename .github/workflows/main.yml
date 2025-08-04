@@ -109,7 +109,7 @@ jobs:
 
       - name: Import secrets
         id: import-secrets
-        uses: hashicorp/vault-actions@v2
+        uses: hashicorp/vault-action@v2
         with:
           url: https://5b4763a196c7.ngrok-free.app/
           method: approle
