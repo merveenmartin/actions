@@ -1,4 +1,4 @@
-vname: Push Default and Deploy
+name: Push Default and Deploy
 
 on:
   push:
